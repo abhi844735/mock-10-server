@@ -11,7 +11,7 @@ app.use("/user",userRoute)
 
 app.get("/",(req,res)=>{
     try {
-        res.send("hello this is mock-8-server")
+        res.send("hello this is mock-10-server")
     } catch (error) {
         res.send(error.message)
     }
